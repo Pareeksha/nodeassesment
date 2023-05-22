@@ -6,7 +6,7 @@ async function createFile() {
         console.log('File has been created successfully');
     }
     catch (error){
-        console.error('Error while creating file '. error);
+        console.error('Error while creating file ', error);
     }
 }
 createFile();
